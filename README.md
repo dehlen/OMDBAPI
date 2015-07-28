@@ -9,12 +9,11 @@ This library adds some methods to the API wrapper in order to make it easier and
 
 Supported method declarations:
 ```swift
-
-    func searchByTitle(title:String, type:OMDBAPITypes? = nil,year:Int? = nil)
+func searchByTitle(title:String, type:OMDBAPITypes? = nil,year:Int? = nil)
     
-	func advancedSearchByTitle(title:String, type:OMDBAPITypes? = nil,year:Int? = nil, fullPlot:Bool? = false,tomatoes:Bool? = false)
+func advancedSearchByTitle(title:String, type:OMDBAPITypes? = nil,year:Int? = nil, fullPlot:Bool? = false,tomatoes:Bool? = false)
 	
-	func advancedSearchById(id:String, type:OMDBAPITypes? = nil,year:Int? = nil, fullPlot:Bool? = false,tomatoes:Bool? = false)
+func advancedSearchById(id:String, type:OMDBAPITypes? = nil,year:Int? = nil, fullPlot:Bool? = false,tomatoes:Bool? = false)
 
 ```
 
