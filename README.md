@@ -1,4 +1,4 @@
-# OMDBABI
+# OMDBAPI
 
 This repository, written in Swift, provides a simple wrapper to use the API endpoints of [omdbapi.com](http://omdbapi.com).
 
