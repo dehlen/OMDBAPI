@@ -43,9 +43,13 @@ class ViewController: NSViewController, OMDBAPIDelegate {
         //2. Set delegate
         omdbAPI.delegate = self
         //3. Call functions
-        omdbAPI.searchByTitle("Inception",type:.Movie,year:2010)
+        omdbAPI.searchByTitle("Inception")
+        //omdbAPI.searchByTitle("Inception",type:.Movie,year:2010)
         omdbAPI.advancedSearchByTitle("Inception")
-        
+        //omdbAPI.advancedSearchByTitle("Inception",type:.Movie,year:2010,fullPlot:true, tomatoes:true)
+        omdbAPI.advancedSearchById("tt1375666")
+        //omdbAPI.advancedSearchById("tt1375666",type:.Movie,year:2010,fullPlot:true, tomatoes:true)
+       
     }
     
     //4. Implement the needed delegate method
@@ -62,7 +66,7 @@ class ViewController: NSViewController, OMDBAPIDelegate {
 ```
 The MIT License (MIT)
 
-Copyright (c) 2015 Eric Marchand (phimage)
+Copyright (c) 2015 David Ehlen (dehlen)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
