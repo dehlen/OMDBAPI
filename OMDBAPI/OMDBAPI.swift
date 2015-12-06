@@ -95,10 +95,10 @@ class OMDBAPI: NSObject {
         
         if let tomatoes = tomatoes {
             if tomatoes {
-                searchQuery += "tomatoes=true"
+                searchQuery += "&tomatoes=true"
             }
             else {
-                searchQuery += "tomatoes=false"
+                searchQuery += "&tomatoes=false"
             }
         }
         
@@ -136,10 +136,10 @@ class OMDBAPI: NSObject {
         
         if let tomatoes = tomatoes {
             if tomatoes {
-                searchQuery += "tomatoes=true"
+                searchQuery += "&tomatoes=true"
             }
             else {
-                searchQuery += "tomatoes=false"
+                searchQuery += "&tomatoes=false"
             }
         }
         
