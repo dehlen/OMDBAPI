@@ -27,6 +27,7 @@ class ViewController: NSViewController, OMDBAPIDelegate {
     }
     
     func didReceiveSearchResults(results: [Movie]) {
+        print(results)
         for movie in results {
             print(movie.description())
         }

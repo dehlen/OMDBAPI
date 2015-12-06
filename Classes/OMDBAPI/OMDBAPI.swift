@@ -37,7 +37,8 @@ class OMDBAPI: NSObject {
         }
         searchQuery += "&r=json"
         
-        let encodedSearchQuery = searchQuery.stringByAddingPercentEncodingWithAllowedCharacters(.URLHostAllowedCharacterSet())
+        let encodedSearchQuery = searchQuery.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())
+       
         let url = NSURL(string: encodedSearchQuery!, relativeToURL:baseUrl)!
         let request = NSMutableURLRequest(URL: url)
         let urlSession = NSURLSession.sharedSession()
@@ -104,7 +105,7 @@ class OMDBAPI: NSObject {
         
         searchQuery += "&r=json"
         
-        let encodedSearchQuery = searchQuery.stringByAddingPercentEncodingWithAllowedCharacters(.URLHostAllowedCharacterSet())
+        let encodedSearchQuery = searchQuery.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())
         advancedSearchByQuery(encodedSearchQuery!)
     }
     
@@ -145,7 +146,7 @@ class OMDBAPI: NSObject {
         
         searchQuery += "&r=json"
         
-        let encodedSearchQuery = searchQuery.stringByAddingPercentEncodingWithAllowedCharacters(.URLHostAllowedCharacterSet())
+       let encodedSearchQuery = searchQuery.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())
         advancedSearchByQuery(encodedSearchQuery!)
 
     }

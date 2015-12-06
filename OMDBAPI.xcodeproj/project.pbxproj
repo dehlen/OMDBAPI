@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		633E0B381B67D4EE004DE90B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E0B371B67D4EE004DE90B /* AppDelegate.swift */; };
-		633E0B3A1B67D4EE004DE90B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E0B391B67D4EE004DE90B /* ViewController.swift */; };
-		633E0B3C1B67D4EE004DE90B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633E0B3B1B67D4EE004DE90B /* Assets.xcassets */; };
-		633E0B3F1B67D4EE004DE90B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633E0B3D1B67D4EE004DE90B /* Main.storyboard */; };
-		633E0B491B67D4FA004DE90B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E0B461B67D4FA004DE90B /* Movie.swift */; };
-		633E0B4A1B67D4FA004DE90B /* OMDBAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E0B471B67D4FA004DE90B /* OMDBAPI.swift */; };
-		633E0B4B1B67D4FA004DE90B /* RottenTomatoRatings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E0B481B67D4FA004DE90B /* RottenTomatoRatings.swift */; };
-		633E0B4D1B67D500004DE90B /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E0B4C1B67D500004DE90B /* APIConstants.swift */; };
+		6336A1C71C14FAB0002B6614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336A1BC1C14FAB0002B6614 /* AppDelegate.swift */; };
+		6336A1C81C14FAB0002B6614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6336A1BD1C14FAB0002B6614 /* Assets.xcassets */; };
+		6336A1C91C14FAB0002B6614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6336A1BE1C14FAB0002B6614 /* Main.storyboard */; };
+		6336A1CB1C14FAB0002B6614 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336A1C21C14FAB0002B6614 /* APIConstants.swift */; };
+		6336A1CC1C14FAB0002B6614 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336A1C31C14FAB0002B6614 /* Movie.swift */; };
+		6336A1CD1C14FAB0002B6614 /* OMDBAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336A1C41C14FAB0002B6614 /* OMDBAPI.swift */; };
+		6336A1CE1C14FAB0002B6614 /* RottenTomatoRatings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336A1C51C14FAB0002B6614 /* RottenTomatoRatings.swift */; };
+		6336A1CF1C14FAB0002B6614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336A1C61C14FAB0002B6614 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6336A1BC1C14FAB0002B6614 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6336A1BD1C14FAB0002B6614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6336A1BF1C14FAB0002B6614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6336A1C01C14FAB0002B6614 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6336A1C21C14FAB0002B6614 /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		6336A1C31C14FAB0002B6614 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		6336A1C41C14FAB0002B6614 /* OMDBAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMDBAPI.swift; sourceTree = "<group>"; };
+		6336A1C51C14FAB0002B6614 /* RottenTomatoRatings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RottenTomatoRatings.swift; sourceTree = "<group>"; };
+		6336A1C61C14FAB0002B6614 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		633E0B341B67D4EE004DE90B /* OMDBAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMDBAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		633E0B371B67D4EE004DE90B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		633E0B391B67D4EE004DE90B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		633E0B3B1B67D4EE004DE90B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		633E0B3E1B67D4EE004DE90B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		633E0B401B67D4EE004DE90B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		633E0B461B67D4FA004DE90B /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		633E0B471B67D4FA004DE90B /* OMDBAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMDBAPI.swift; sourceTree = "<group>"; };
-		633E0B481B67D4FA004DE90B /* RottenTomatoRatings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RottenTomatoRatings.swift; sourceTree = "<group>"; };
-		633E0B4C1B67D500004DE90B /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,10 +41,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6336A1BB1C14FAB0002B6614 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6336A1BC1C14FAB0002B6614 /* AppDelegate.swift */,
+				6336A1BD1C14FAB0002B6614 /* Assets.xcassets */,
+				6336A1BE1C14FAB0002B6614 /* Main.storyboard */,
+				6336A1C01C14FAB0002B6614 /* Info.plist */,
+				6336A1C11C14FAB0002B6614 /* OMDBAPI */,
+				6336A1C61C14FAB0002B6614 /* ViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6336A1C11C14FAB0002B6614 /* OMDBAPI */ = {
+			isa = PBXGroup;
+			children = (
+				6336A1C21C14FAB0002B6614 /* APIConstants.swift */,
+				6336A1C31C14FAB0002B6614 /* Movie.swift */,
+				6336A1C41C14FAB0002B6614 /* OMDBAPI.swift */,
+				6336A1C51C14FAB0002B6614 /* RottenTomatoRatings.swift */,
+			);
+			path = OMDBAPI;
+			sourceTree = "<group>";
+		};
 		633E0B2B1B67D4EE004DE90B = {
 			isa = PBXGroup;
 			children = (
-				633E0B361B67D4EE004DE90B /* OMDBAPI */,
+				6336A1BB1C14FAB0002B6614 /* Classes */,
 				633E0B351B67D4EE004DE90B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,22 +79,6 @@
 				633E0B341B67D4EE004DE90B /* OMDBAPI.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		633E0B361B67D4EE004DE90B /* OMDBAPI */ = {
-			isa = PBXGroup;
-			children = (
-				633E0B371B67D4EE004DE90B /* AppDelegate.swift */,
-				633E0B391B67D4EE004DE90B /* ViewController.swift */,
-				633E0B461B67D4FA004DE90B /* Movie.swift */,
-				633E0B481B67D4FA004DE90B /* RottenTomatoRatings.swift */,
-				633E0B471B67D4FA004DE90B /* OMDBAPI.swift */,
-				633E0B4C1B67D500004DE90B /* APIConstants.swift */,
-				633E0B3B1B67D4EE004DE90B /* Assets.xcassets */,
-				633E0B3D1B67D4EE004DE90B /* Main.storyboard */,
-				633E0B401B67D4EE004DE90B /* Info.plist */,
-			);
-			path = OMDBAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,8 +138,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				633E0B3C1B67D4EE004DE90B /* Assets.xcassets in Resources */,
-				633E0B3F1B67D4EE004DE90B /* Main.storyboard in Resources */,
+				6336A1C81C14FAB0002B6614 /* Assets.xcassets in Resources */,
+				6336A1C91C14FAB0002B6614 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,22 +150,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				633E0B4A1B67D4FA004DE90B /* OMDBAPI.swift in Sources */,
-				633E0B3A1B67D4EE004DE90B /* ViewController.swift in Sources */,
-				633E0B4D1B67D500004DE90B /* APIConstants.swift in Sources */,
-				633E0B381B67D4EE004DE90B /* AppDelegate.swift in Sources */,
-				633E0B491B67D4FA004DE90B /* Movie.swift in Sources */,
-				633E0B4B1B67D4FA004DE90B /* RottenTomatoRatings.swift in Sources */,
+				6336A1CF1C14FAB0002B6614 /* ViewController.swift in Sources */,
+				6336A1CD1C14FAB0002B6614 /* OMDBAPI.swift in Sources */,
+				6336A1CB1C14FAB0002B6614 /* APIConstants.swift in Sources */,
+				6336A1C71C14FAB0002B6614 /* AppDelegate.swift in Sources */,
+				6336A1CC1C14FAB0002B6614 /* Movie.swift in Sources */,
+				6336A1CE1C14FAB0002B6614 /* RottenTomatoRatings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		633E0B3D1B67D4EE004DE90B /* Main.storyboard */ = {
+		6336A1BE1C14FAB0002B6614 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				633E0B3E1B67D4EE004DE90B /* Base */,
+				6336A1BF1C14FAB0002B6614 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -250,9 +258,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = OMDBAPI/Info.plist;
+				INFOPLIST_FILE = Classes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.david-ehlen.OMDBAPI";
+				PRODUCT_MODULE_NAME = OMDBAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -262,9 +271,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = OMDBAPI/Info.plist;
+				INFOPLIST_FILE = Classes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.david-ehlen.OMDBAPI";
+				PRODUCT_MODULE_NAME = OMDBAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -288,6 +298,7 @@
 				633E0B451B67D4EE004DE90B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
