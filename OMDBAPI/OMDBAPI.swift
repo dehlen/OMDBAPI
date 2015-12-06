@@ -37,7 +37,7 @@ class OMDBAPI: NSObject {
         }
         searchQuery += "&r=json"
         
-        let encodedSearchQuery = searchQuery.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)
+        let encodedSearchQuery = searchQuery.stringByAddingPercentEncodingWithAllowedCharacters(.URLHostAllowedCharacterSet())
         let url = NSURL(string: encodedSearchQuery!, relativeToURL:baseUrl)!
         let request = NSMutableURLRequest(URL: url)
         let urlSession = NSURLSession.sharedSession()
@@ -64,7 +64,7 @@ class OMDBAPI: NSObject {
             
             
         })
-        task!.resume()
+        task.resume()
     }
 
     func advancedSearchByTitle(title:String, type:OMDBAPITypes? = nil,year:Int? = nil, fullPlot:Bool? = false,tomatoes:Bool? = false) {
@@ -104,7 +104,7 @@ class OMDBAPI: NSObject {
         
         searchQuery += "&r=json"
         
-        let encodedSearchQuery = searchQuery.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)
+        let encodedSearchQuery = searchQuery.stringByAddingPercentEncodingWithAllowedCharacters(.URLHostAllowedCharacterSet())
         advancedSearchByQuery(encodedSearchQuery!)
     }
     
@@ -145,7 +145,7 @@ class OMDBAPI: NSObject {
         
         searchQuery += "&r=json"
         
-        let encodedSearchQuery = searchQuery.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)
+        let encodedSearchQuery = searchQuery.stringByAddingPercentEncodingWithAllowedCharacters(.URLHostAllowedCharacterSet())
         advancedSearchByQuery(encodedSearchQuery!)
 
     }
@@ -170,7 +170,7 @@ class OMDBAPI: NSObject {
             }
             
         })
-        task!.resume()
+        task.resume()
 
     }
 }

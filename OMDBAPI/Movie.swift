@@ -6,7 +6,7 @@
 //  Copyright © 2015 David Ehlen. All rights reserved.
 //
 
-import Cocoa
+import Foundation
 
 class Movie {
 
