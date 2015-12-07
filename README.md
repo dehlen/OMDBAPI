@@ -29,6 +29,9 @@ Copy
 
 to your project.
 
+Alternatively you can install this library via Cocoapods with:
+	pod install OMDBAPI
+(If it is not working at the Moment have a look at #1).
 ## Usage
 
 For a demo have a look at ViewController.swift.
