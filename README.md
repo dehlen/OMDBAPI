@@ -30,7 +30,7 @@ Copy
 to your project.
 
 Alternatively you can install this library via Cocoapods with:
-	`pod install OMDBAPI`
+	`pod 'OMDBAPI'`
 
 ## Usage
 
